@@ -12,6 +12,11 @@ This project demonstrates how to build and train a simple CNN model for image cl
 ## Data
 
 The dataset should be structured as follows:
+content_copy
+download
+Use code with caution.
+Markdown
+
 Footwear/
 ├── Boot/
 │ ├── image1.jpg
@@ -23,8 +28,7 @@ Footwear/
 │ └── ...
 └── Shoe/
 ├── image1.jpg
-└── 
-
+└── ...
 
 Make sure all images are in JPG format and adequately represent the three categories.  The code assumes grayscale images.
 
@@ -50,10 +54,10 @@ The Python script (`your_script_name.py`) performs the following tasks:
 
 ```bash
 pip install numpy opencv-python keras scikit-learn matplotlib
-
 ```
 
 Usage
+
 Prepare your data: Organize your images into the directory structure described above.
 
 Run the script: Execute the Python script.
@@ -61,8 +65,12 @@ Run the script: Execute the Python script.
 To run:
 python your_script_name.py
 
+Bash
+
+The script will print the model summary and training history. Plots visualizing training accuracy and loss will be displayed. The script also prints the test accuracy of your model after training.
 
 Further Improvements
+
 Data Augmentation: Implementing data augmentation techniques can significantly improve model generalization.
 
 Hyperparameter Tuning: Exploring different hyperparameters (learning rate, batch size, number of epochs, layer configurations) to optimize performance.
@@ -75,7 +83,9 @@ Improved Image Handling: Handle different image types and sizes gracefully to ma
 
 Author
 
-Sourabh Vamdevan
+[Sourabh Vamdevan]
+
+
 
 
 
