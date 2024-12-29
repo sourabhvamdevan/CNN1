@@ -23,7 +23,7 @@ Footwear/
 │ └── ...
 └── Shoe/
 ├── image1.jpg
-└── ...
+└── 
 
 
 Make sure all images are in JPG format and adequately represent the three categories.  The code assumes grayscale images.
